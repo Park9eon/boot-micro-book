@@ -1,0 +1,9 @@
+POST http://localhost:8080/oauth/token?scope=read&grant_type=password&username=user&password=123123
+Authorization: Basic Ym9vazoxMjMxMjM=
+Accept: application/xml
+###
+
+GET http://localhost:8081/book/user/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1Mjk0MzU5MzAsInVzZXJfbmFtZSI6InVzZXIiLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwianRpIjoiYTgyYzJkMzEtN2NmYS00YzU0LTgzNjgtMTJhZTU1NWYxNTc0IiwiY2xpZW50X2lkIjoiYm9vayIsInNjb3BlIjpbInJlYWQiXX0.jdkTd0flgb42m9_Syw89Q_AUe96TnUUd_qnbjIxg5YQ
+
+###
